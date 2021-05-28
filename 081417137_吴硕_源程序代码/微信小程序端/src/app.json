@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/welcome/main",
+    "pages/login/main",
+
+    "pages/teacher-main/main",
+    "pages/teacher-course-detail/main",
+    "pages/teacher-period-detail/main",
+
+    "pages/student-main/main",
+    "pages/student-course-detail/main",
+    "pages/student-period-detail/main",
+    "pages/student-test-detail/main",
+    "pages/student-evaluate/main",
+    "pages/student-discussion-issue/main",
+
+    "pages/student-message-main/main",
+
+
+    "pages/user-course-detail/main",
+    "pages/user-weekmission-detail/main",
+    "pages/user-discussion-detail/main",
+    "pages/user-lesson-detail/main",
+
+
+    "pages/demo/main",
+    "pages/help/main",
+    "pages/about/main"
+  ],
+
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+
+  "usingComponents": {
+    "i-button": "/static/iview/button/index",
+    "i-collapse": "/static/iview/collapse/index",
+    "i-collapse-item": "/static/iview/collapse-item/index",
+    "i-panel": "/static/iview/panel/index",
+    "van-button": "/static/vant/button/index",
+    "van-field": "/static/vant/field/index",
+    "van-divider": "/static/vant/divider/index",
+    "van-toast": "/static/vant/toast/index",
+    "van-dropdown-menu": "/static/vant/dropdown-menu/index",
+    "van-dropdown-item": "/static/vant/dropdown-item/index",
+    "van-notify": "/static/vant/notify/index",
+    "van-tabbar": "/static/vant/tabbar/index",
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-search": "/static/vant/search/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-tab": "/static/vant/tab/index",
+    "van-nav-bar": "/static/vant/nav-bar/index",
+    "van-tabs": "/static/vant/tabs/index",
+    "van-collapse": "/static/vant/collapse/index",
+    "van-collapse-item": "/static/vant/collapse-item/index",
+    "van-image": "/static/vant/image/index",
+    "van-tag": "/static/vant/tag/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-cell-group": "/static/vant/cell-group/index",
+    "van-dialog": "/static/vant/dialog/index",
+    "van-grid": "/static/vant/grid/index",
+    "van-grid-item": "/static/vant/grid-item/index",
+    "van-action-sheet": "/static/vant/action-sheet/index",
+    "van-empty": "/static/vant/empty/index",
+    "van-rate": "/static/vant/rate/index"
+  }
+}

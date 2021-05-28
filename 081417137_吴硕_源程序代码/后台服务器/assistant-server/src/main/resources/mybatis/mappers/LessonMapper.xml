@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--suppress SqlNoDataSourceInspection, SqlDialectInspection -->
+<mapper namespace="cn.hncj.assistant.mapper.LessonMapper">
+
+    <!-- 根据课程id查询课 -->
+    <select id="selectLessons" resultType="LessonDTO">
+        select * from lesson
+        where course_id = #{course_id};
+    </select>
+
+
+    <!-- 查询lesson的平均评价 -->
+    <select id="selectAvgEvaluation" resultType="map">
+        select avg(evaluation_degree) as degree, avg(evaluation_quality) as quality
+        from evaluation
+        where lesson_id = #{lesson_id};
+    </select>
+
+
+    <!-- 修改课时内容 -->
+    <update id="updateLesson">
+        update lesson
+        set lesson_content = #{lesson_content}
+        where lesson_id = #{lesson_id};
+    </update>
+
+</mapper>

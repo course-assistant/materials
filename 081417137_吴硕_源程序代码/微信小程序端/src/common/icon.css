@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2388465 */
+  src: url('//at.alicdn.com/t/font_2388465_afg2m5zfxs7.woff2?t=1620110637021') format('woff2'),
+       url('//at.alicdn.com/t/font_2388465_afg2m5zfxs7.woff?t=1620110637021') format('woff'),
+       url('//at.alicdn.com/t/font_2388465_afg2m5zfxs7.ttf?t=1620110637021') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-help:before {
+  content: "\e620";
+}
+
+.icon-join:before {
+  content: "\e626";
+}
+
+.icon-account-management:before {
+  content: "\e673";
+}
+
+.icon-logout:before {
+  content: "\e60c";
+}
+
+.icon-info:before {
+  content: "\e60b";
+}
+
+.icon-my-course:before {
+  content: "\e674";
+}
+
+.icon-query:before {
+  content: "\e606";
+}
+
+.icon-evaluate:before {
+  content: "\e62e";
+}
+
+.icon-add:before {
+  content: "\e601";
+}
+
+.icon-app:before {
+  content: "\e702";
+}
+
+.icon-left:before {
+  content: "\e622";
+}
+
+.icon-down:before {
+  content: "\e623";
+}
+
+.icon-right:before {
+  content: "\e624";
+}
+
+.icon-up:before {
+  content: "\e625";
+}
+
+.icon-more:before {
+  content: "\e605";
+}
+
+.icon-github:before {
+  content: "\ea0a";
+}
+
+.icon-feedback:before {
+  content: "\e60a";
+}
+
+.icon-bug:before {
+  content: "\e6c0";
+}
+
+.icon-random:before {
+  content: "\e65c";
+}
+
+.icon-book:before {
+  content: "\e656";
+}
+
+.icon-newspaper:before {
+  content: "\e68e";
+}
+
+.icon-course:before {
+  content: "\e6d8";
+}
+
+.icon-video:before {
+  content: "\e665";
+}
+
+.icon-qq:before {
+  content: "\e6d7";
+}
+
+.icon-weibo:before {
+  content: "\e600";
+}
+
+.icon-weixin:before {
+  content: "\e61e";
+}
